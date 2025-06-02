@@ -14715,7 +14715,7 @@ mondata SPECIES_GENESECT, "Genesect"
 
 
 mondata SPECIES_CHESPIN, "Chespin"
-    basestats 56, 61, 65, 38, 48, 45
+    basestats 56, 61, 65, 38, 5, 45
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -14726,18 +14726,18 @@ mondata SPECIES_CHESPIN, "Chespin"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_MOLD_BREAKER
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_CHESPIN, "Such a thick shell of wood covers its\nhead and back that even a direct hit\nfrom a truck wouldn’t faze it."
+    mondexentry SPECIES_CHESPIN, "while not being the brightest it looks up to\nchesnaught and seeks them out for\nadvice."
     mondexclassification SPECIES_CHESPIN, "Spiny Nut Pokémon"
     mondexheight SPECIES_CHESPIN, "1’04”"
     mondexweight SPECIES_CHESPIN, "19.8 lbs."
 
 
 mondata SPECIES_QUILLADIN, "Quilladin"
-    basestats 61, 78, 95, 57, 56, 58
-    types TYPE_GRASS, TYPE_GRASS
+    basestats 61, 78, 95, 57, 10, 58
+    types TYPE_GRASS, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -14747,17 +14747,17 @@ mondata SPECIES_QUILLADIN, "Quilladin"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_MOLD_BREAKER
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_QUILLADIN, "It relies on its sturdy shell to\ndeflect predators’ attacks. It\ncounterattacks with its sharp quills."
+    mondexentry SPECIES_QUILLADIN, "It relies on its trainers to make the calls\nit may be strong but not smart enough\nto think about strategies."
     mondexclassification SPECIES_QUILLADIN, "Spiny Armor Pokémon"
     mondexheight SPECIES_QUILLADIN, "2’04”"
     mondexweight SPECIES_QUILLADIN, "63.9 lbs."
 
 
 mondata SPECIES_CHESNAUGHT, "Chesnaught"
-    basestats 88, 107, 122, 64, 74, 75
+    basestats 88, 107, 122, 64, 15, 75
     types TYPE_GRASS, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -14768,10 +14768,10 @@ mondata SPECIES_CHESNAUGHT, "Chesnaught"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_SUPREME_OVERLORD, ABILITY_SUPREME_OVERLORD
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_CHESNAUGHT, "When it takes a defensive posture with\nits fists guarding its face, it could\nwithstand a bomb blast."
+    mondexentry SPECIES_CHESNAUGHT, "The king of the grass types\nits said to be able to tear a mudsdale to shreds\nwith a single strike."
     mondexclassification SPECIES_CHESNAUGHT, "Spiny Armor Pokémon"
     mondexheight SPECIES_CHESNAUGHT, "5’03”"
     mondexweight SPECIES_CHESNAUGHT, "198.4 lbs."
@@ -16354,7 +16354,7 @@ mondata SPECIES_INCINEROAR, "Incineroar"
 
 mondata SPECIES_POPPLIO, "Popplio"
     basestats 50, 54, 54, 40, 66, 56
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -16364,10 +16364,10 @@ mondata SPECIES_POPPLIO, "Popplio"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_NONE
+    abilities ABILITY_LIQUID_VOICE, ABILITY_PIXILATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_POPPLIO, "The balloons it inflates with its nose\ngrow larger and larger as it practices\nday by day."
+    mondexentry SPECIES_POPPLIO, "When popplio's get born they get the choice of \nwater or fairy it is a choice that they will live by \nday by day."
     mondexclassification SPECIES_POPPLIO, "Sea Lion Pokémon"
     mondexheight SPECIES_POPPLIO, "1’04”"
     mondexweight SPECIES_POPPLIO, "16.5 lbs."
@@ -16375,7 +16375,7 @@ mondata SPECIES_POPPLIO, "Popplio"
 
 mondata SPECIES_BRIONNE, "Brionne"
     basestats 60, 69, 69, 50, 91, 81
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -16385,10 +16385,10 @@ mondata SPECIES_BRIONNE, "Brionne"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_NONE
+    abilities ABILITY_LIQUID_VOICE, ABILITY_PIXILATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_BRIONNE, "It attacks by smacking its enemies with\nthe exploding water balloons that it\ncreates."
+    mondexentry SPECIES_BRIONNE, "despite there cute looks\nthey can be violent if you invade theyre \nteretory."
     mondexclassification SPECIES_BRIONNE, "Pop Star Pokémon"
     mondexheight SPECIES_BRIONNE, "2’00”"
     mondexweight SPECIES_BRIONNE, "38.6 lbs."
@@ -16406,10 +16406,10 @@ mondata SPECIES_PRIMARINA, "Primarina"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_NONE
+    abilities ABILITY_LIQUID_VOICE, ABILITY_PIXILATE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_PRIMARINA, "To Primarina, every battle is a stage.\nIt takes down its prey with beautiful\nsinging and dancing."
+    mondexentry SPECIES_PRIMARINA, "to protect there young\nIt takes down its prey with its attacks it is ruthless\nif you see a wild one RUN."
     mondexclassification SPECIES_PRIMARINA, "Soloist Pokémon"
     mondexheight SPECIES_PRIMARINA, "5’11”"
     mondexweight SPECIES_PRIMARINA, "97.0 lbs."
@@ -20165,10 +20165,10 @@ mondata SPECIES_FUECOCO, "Fuecoco"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_NONE
+    abilities ABILITY_UNAWARE, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_FUECOCO, "It lies on warm rocks and uses the\nheat absorbed by its square-shaped\nscales to create fire energy."
+    mondexentry SPECIES_FUECOCO, "It has no brain cells \nscientists are unaware of how it even exists."
     mondexclassification SPECIES_FUECOCO, "Fire Croc Pokémon"
     mondexheight SPECIES_FUECOCO, "1’04”"
     mondexweight SPECIES_FUECOCO, "21.6 lbs."
@@ -20186,10 +20186,10 @@ mondata SPECIES_CROCALOR, "Crocalor"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_NONE
+    abilities ABILITY_UNAWARE, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_CROCALOR, "The combination of Crocalor’s fire energy\nand overflowing vitality has caused an\negg-shaped fireball to appear on its head."
+    mondexentry SPECIES_CROCALOR, "after evolution it has gained a total of 3 brain cells\nwith it's new found intelegence \nit likes to prank people."
     mondexclassification SPECIES_CROCALOR, "Fire Croc Pokémon"
     mondexheight SPECIES_CROCALOR, "3’03”"
     mondexweight SPECIES_CROCALOR, "67.7 lbs."
@@ -20207,10 +20207,10 @@ mondata SPECIES_SKELEDIRGE, "Skeledirge"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_NONE
+    abilities ABILITY_UNAWARE, ABILITY_MAGIC_BOUNCE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_SKELEDIRGE, "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit."
+    mondexentry SPECIES_SKELEDIRGE, "after having gained enough power its mortal body dies and gets haunted by a poltergeist\nit is said that the songs it makes are trying to give peace to the crocalor who died."
     mondexclassification SPECIES_SKELEDIRGE, "Singer Pokémon"
     mondexheight SPECIES_SKELEDIRGE, "5’03”"
     mondexweight SPECIES_SKELEDIRGE, "719.8 lbs."
