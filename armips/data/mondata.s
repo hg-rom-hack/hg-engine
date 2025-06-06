@@ -2640,18 +2640,18 @@ mondata SPECIES_JYNX, "Jynx"
 
 
 mondata SPECIES_ELECTABUZZ, "Electabuzz"
-    basestats 65, 83, 57, 105, 95, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 65, 83, 77, 105, 95, 85
+    types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_ELECTIRIZER, ITEM_NONE
+    items ITEM_ELECTIRIZER, ITEM_ELECTIRIZER
     genderratio 63
     eggcycles 25
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_STATIC, ABILITY_NONE
+    abilities ABILITY_IRON_FIST, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELECTABUZZ, "Electricity runs across the surface\nof its body. In darkness, its entire\nbody glows a whitish-blue."
@@ -5034,18 +5034,18 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
 
 
 mondata SPECIES_ELEKID, "Elekid"
-    basestats 45, 63, 37, 95, 65, 55
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 45, 63, 55, 95, 65, 55
+    types TYPE_ELECTRIC, TYPE_FIGHTING  
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_ELECTIRIZER, ITEM_NONE
+    items ITEM_ELECTIRIZER, ITEM_ELECTIRIZER
     genderratio 63
     eggcycles 25
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STATIC, ABILITY_NONE
+    abilities ABILITY_IRON_FIST, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELEKID, "It rotates its arms to generate\nelectricity, but it tires easily,\nso it only charges up a little bit."
