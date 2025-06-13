@@ -8971,12 +8971,12 @@ movedata MOVE_ICICLE_CRASH, "Icicle Crash"
     movedescription MOVE_ICICLE_CRASH, "Icicles are dropped\non the foe. It may\nalso make the foe\nflinch."
 
 movedata MOVE_V_CREATE, "V-create"
-    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_SPEED_DOWN_HIT
+    battleeffect MOVE_EFFECT_ALWAYS_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 180
+    basepower 120
     type TYPE_FIRE
-    accuracy 95
-    pp 5
+    accuracy 0
+    pp 15
     effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
@@ -8984,7 +8984,7 @@ movedata MOVE_V_CREATE, "V-create"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_V_CREATE, "The user hurls the\nhot flame on its\nforehead. It lowers\nthe user’s Def, Sp.\nDef, and Speed."
+    movedescription MOVE_V_CREATE, "The user hurls the\nhot flame on its\nforehead. It always crits\nthe user’s Def, Sp.\nDef, and Speed."
 
 movedata MOVE_FUSION_FLARE, "Fusion Flare"
     battleeffect MOVE_EFFECT_HIT

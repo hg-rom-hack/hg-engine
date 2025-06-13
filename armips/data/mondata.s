@@ -15178,11 +15178,11 @@ mondata SPECIES_FLORGES, "Florges"
 
 mondata SPECIES_SKIDDO, "Skiddo"
     basestats 66, 65, 48, 52, 62, 57
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_GROUND
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_ORAN_BERRY, ITEM_SITRUS_BERRY
     genderratio 127
     eggcycles 20
     basefriendship 70
