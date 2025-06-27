@@ -635,7 +635,7 @@ mondata SPECIES_NIDORAN_F, "Nidoran♀"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_NIDORAN_F, "The poison hidden in its small horn\nis extremely potent. Even a tiny\nscratch can have fatal results."
@@ -656,7 +656,7 @@ mondata SPECIES_NIDORINA, "Nidorina"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_NIDORINA, "When feeding its young, it first\nchews the food into a paste, then\nspits it out for the offspring."
@@ -677,7 +677,7 @@ mondata SPECIES_NIDOQUEEN, "Nidoqueen"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_NIDOQUEEN, "Its body is covered with needle-like\nscales. It never shows signs\nof shrinking from any attack."
@@ -698,7 +698,7 @@ mondata SPECIES_NIDORAN_M, "Nidoran♂"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDORAN_M, "It is small, but its horn is filled\nwith poison. It charges then stabs\nwith the horn to inject poison."
@@ -719,7 +719,7 @@ mondata SPECIES_NIDORINO, "Nidorino"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDORINO, "It raises its big ears to check its\nsurroundings. If it senses anything,\nit attacks immediately."
@@ -740,7 +740,7 @@ mondata SPECIES_NIDOKING, "Nidoking"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
-    abilities ABILITY_POISON_POINT, ABILITY_RIVALRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NIDOKING, "It swings its big tail around during\nbattle. If its foe flinches, it will\ncharge with its sturdy body."
@@ -2746,7 +2746,7 @@ mondata SPECIES_MAGIKARP, "Magikarp"
 
 mondata SPECIES_GYARADOS, "Gyarados"
     basestats 95, 125, 79, 81, 60, 100
-    types TYPE_WATER, TYPE_FLYING
+    types TYPE_WATER, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -6274,7 +6274,7 @@ mondata SPECIES_HARIYAMA, "Hariyama"
 
 mondata SPECIES_AZURILL, "Azurill"
     basestats 50, 20, 40, 20, 20, 40
-    types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types TYPE_WATER, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_WATER
     catchrate 150
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -6904,7 +6904,7 @@ mondata SPECIES_SPINDA, "Spinda"
 
 mondata SPECIES_TRAPINCH, "Trapinch"
     basestats 45, 100, 45, 10, 45, 45
-    types TYPE_GROUND, TYPE_GROUND
+    types TYPE_GROUND, TYPE_BUG
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -9865,7 +9865,7 @@ mondata SPECIES_TOGEKISS, "Togekiss"
 
 mondata SPECIES_YANMEGA, "Yanmega"
     basestats 86, 76, 86, 95, 116, 56
-    types TYPE_BUG, TYPE_FLYING
+    types TYPE_BUG, TYPE_DRAGON
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -11439,7 +11439,7 @@ mondata SPECIES_543, "-----"
 
 
 mondata SPECIES_VICTINI, "Victini"
-    basestats 100, 140, 100, 140, 75, 125
+    basestats 120, 120, 100, 140, 75, 125
     types TYPE_PSYCHIC, TYPE_FIRE
     catchrate 3
     baseexp 0 // defined in baseexp.s
@@ -11450,10 +11450,11 @@ mondata SPECIES_VICTINI, "Victini"
     basefriendship 100
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_VICTORY_STAR, ABILITY_NONE
+    abilities ABILITY_VICTORY_STAR, ABILITY_VICTORY_STAR
+    +3
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_VICTINI, "When it shares the infinite energy\nit creates, that being's entire body\nwill be overflowing with power."
+    mondexentry SPECIES_VICTINI, "It is said to be the Victory pokemon\nit is so strong it was \nbanned to AG."
     mondexclassification SPECIES_VICTINI, "Victory Pokémon"
     mondexheight SPECIES_VICTINI, "1’04”"
     mondexweight SPECIES_VICTINI, "8.8 lbs."

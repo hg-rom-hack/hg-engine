@@ -363,7 +363,12 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
         }
 
         sys_FreeMemoryEz(evoTable);
-    }
+    }// handle electrizer as eviolite for elekid/electabuzz  
+if ((DefendingMon.item_held_effect == HOLD_EFFECT_EVOLVE_ELECTABUZZ) &&  
+    ((DefendingMon.species == SPECIES_ELEKID) || (DefendingMon.species == SPECIES_ELECTABUZZ))) {  
+    defense = defense * 150 / 100;  
+    sp_defense = sp_defense * 150 / 100;  
+}
 
     // handle thick club
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_CUBONE_ATK_UP)

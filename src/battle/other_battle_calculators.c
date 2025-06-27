@@ -540,10 +540,10 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
 
         // Victory Star - 4506/4096 for each Victory Star
 
-        if (BATTLER_ALLY(attacker) == sp->rawSpeedNonRNGClientOrder[i]
-        && GetBattlerAbility(sp, sp->rawSpeedNonRNGClientOrder[i]) == ABILITY_VICTORY_STAR) {
-            accuracyModifier = QMul_RoundUp(accuracyModifier, UQ412__1_1_BUT_HIGHER);
-        }
+        // if (BATTLER_ALLY(attacker) == sp->rawSpeedNonRNGClientOrder[i]
+        // && GetBattlerAbility(sp, sp->rawSpeedNonRNGClientOrder[i]) == ABILITY_VICTORY_STAR) {
+        //     accuracyModifier = QMul_RoundUp(accuracyModifier, UQ412__1_1_BUT_HIGHER);
+        // }
     }
 
     // 6.3 Items; order is determined by raw Speed with a non-RNG Speed tie.
@@ -1374,9 +1374,9 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
         }
     }
 
-    if ((multiplier == 2) && (GetBattlerAbility(sp, attacker) == ABILITY_SNIPER))
-    {
-        multiplier = 3;
+  if ((multiplier == 2) && (GetBattlerAbility(sp, attacker) == ABILITY_SNIPER || GetBattlerAbility(sp, attacker) == ABILITY_VICTORY_STAR))  
+    {  
+        multiplier = 3;  
     }
 
     if (multiplier > 1) // log critical hits for current pokemon
