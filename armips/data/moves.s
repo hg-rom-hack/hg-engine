@@ -614,7 +614,7 @@ movedata MOVE_THRASH, "Thrash"
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x07
-    contesttype CONTEST_TOUGH
+    contesttype CONTEST_CUTE
     terminatedata
     movedescription MOVE_THRASH, "The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however."
 
@@ -8984,7 +8984,7 @@ movedata MOVE_V_CREATE, "V-create"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_V_CREATE, "The user hurls the\nhot flame on its\nforehead. It always crits\nit can only be used with.\nVictini and Smeargle."
+    movedescription MOVE_V_CREATE, "The user hurls the\nhot flame on its\nforehead. It always crits\nit can only be used with.\nVictini Rayquaza and Smeargle."
 
 movedata MOVE_FUSION_FLARE, "Fusion Flare"
     battleeffect MOVE_EFFECT_HIT
@@ -14778,18 +14778,4 @@ movedata MOVE_MALIGNANT_CHAIN, "Malignant Chain"
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_MALIGNANT_CHAIN, "---"
-
-movedatanoname NUM_OF_MOVES
-    battleeffect MOVE_EFFECT_HIT
-    pss SPLIT_SPECIAL
-    basepower 100
-    type TYPE_NORMAL
-    accuracy 100
-    pp 10
-    effectchance 0
-    target 0x0000
-    priority 0
-    flags 0x32
-    appeal 0x10
-    contesttype CONTEST_BEAUTY
-    terminatedata
+    

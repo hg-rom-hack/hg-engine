@@ -2602,7 +2602,7 @@ trainerdata 84, "Barry"
         move MOVE_POISON_JAB
         move MOVE_FOCUS_ENERGY
         move MOVE_EARTH_POWER
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         ballseal 0
     endparty
 
@@ -7703,7 +7703,7 @@ trainerdata 246, "Karen"
         item ITEM_NONE
         move MOVE_LICK
         move MOVE_SPITE
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_DESTINY_BOND
         ballseal 0
 
@@ -8500,7 +8500,7 @@ trainerdata 260, "Red"
         level 84
         pokemon SPECIES_BLASTOISE
         item ITEM_NONE
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_HYDRO_CANNON
         move MOVE_BLIZZARD
         move MOVE_FLASH_CANNON
@@ -8551,7 +8551,7 @@ trainerdata 261, "Blue"
         pokemon SPECIES_RHYDON
         item ITEM_NONE
         move MOVE_MEGAHORN
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_THUNDER_FANG
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -8576,7 +8576,7 @@ trainerdata 261, "Blue"
         item ITEM_NONE
         move MOVE_DYNAMIC_PUNCH
         move MOVE_EARTHQUAKE
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_THUNDER_PUNCH
         ballseal 0
 
@@ -11210,7 +11210,7 @@ trainerdata 328, "Tommy"
         move MOVE_PSYCHIC
         move MOVE_CALM_MIND
         move MOVE_REFLECT
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         ballseal 0
     endparty
 
@@ -12189,7 +12189,7 @@ trainerdata 361, "Kevin"
         level 48
         pokemon SPECIES_RHYHORN
         move MOVE_TAKE_DOWN
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_HORN_DRILL
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -16400,7 +16400,7 @@ trainerdata 489, "Silver"
         level 56
         pokemon SPECIES_ALAKAZAM
         move MOVE_RECOVER
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_PSYCHIC
         move MOVE_REFLECT
         ballseal 0
@@ -16480,7 +16480,7 @@ trainerdata 490, "Silver"
         level 56
         pokemon SPECIES_ALAKAZAM
         move MOVE_RECOVER
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_PSYCHIC
         move MOVE_REFLECT
         ballseal 0
@@ -16565,7 +16565,7 @@ trainerdata 491, "Silver"
         pokemon SPECIES_ALAKAZAM
         item ITEM_NONE
         move MOVE_RECOVER
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_PSYCHIC
         move MOVE_REFLECT
         ballseal 0
@@ -18526,7 +18526,7 @@ trainerdata 545, "French"
         pokemon SPECIES_ALAKAZAM
         item ITEM_NONE
         move MOVE_PSYCHIC
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_ENERGY_BALL
         move MOVE_CHARGE_BEAM
         ballseal 0
@@ -22333,7 +22333,7 @@ trainerdata 667, "Cheryl"
         move MOVE_CLOSE_COMBAT
         move MOVE_EARTHQUAKE
         move MOVE_BULLET_PUNCH
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         ballseal 0
 
         // mon 3
@@ -22503,7 +22503,7 @@ trainerdata 669, "Mira"
         pokemon SPECIES_ALAKAZAM
         item ITEM_SITRUS_BERRY
         move MOVE_PSYCHIC
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_CALM_MIND
         move MOVE_HYPER_BEAM
         ballseal 0
@@ -22975,7 +22975,7 @@ trainerdata 682, "Bonita"
         move MOVE_WOOD_HAMMER
         move MOVE_HAMMER_ARM
         move MOVE_EARTHQUAKE
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         ballseal 0
     endparty
 
@@ -23676,7 +23676,7 @@ trainerdata 702, "Will"
         level 61
         pokemon SPECIES_GARDEVOIR
         item ITEM_NONE
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_CHARGE_BEAM
         move MOVE_CALM_MIND
         move MOVE_PSYCHIC
@@ -23850,7 +23850,7 @@ trainerdata 704, "Bruno"
         item ITEM_NONE
         move MOVE_BULLET_PUNCH
         move MOVE_FORESIGHT
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_DYNAMIC_PUNCH
         ballseal 0
 
@@ -24249,7 +24249,7 @@ trainerdata 713, "Bugsy"
         item ITEM_NONE
         move MOVE_CLOSE_COMBAT
         move MOVE_MEGAHORN
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_COUNTER
         ballseal 0
 
@@ -24422,7 +24422,7 @@ trainerdata 715, "Morty"
         move MOVE_HYPNOSIS
         move MOVE_CONFUSE_RAY
         move MOVE_SHADOW_BALL
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         ballseal 0
 
         // mon 5
@@ -24519,7 +24519,7 @@ trainerdata 716, "Pryce"
         item ITEM_SITRUS_BERRY
         move MOVE_EARTHQUAKE
         move MOVE_AVALANCHE
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_DOUBLE_TEAM
         ballseal 0
     endparty
@@ -24603,7 +24603,7 @@ trainerdata 717, "Jasmine"
         level 62
         pokemon SPECIES_STEELIX
         item ITEM_NONE
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_STEALTH_ROCK
         move MOVE_ROAR
         move MOVE_IRON_TAIL
@@ -24668,7 +24668,7 @@ trainerdata 718, "Chuck"
         move MOVE_SUBSTITUTE
         move MOVE_FOCUS_PUNCH
         move MOVE_DRAIN_PUNCH
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         ballseal 0
 
         // mon 4
@@ -24862,7 +24862,7 @@ trainerdata 720, "Brock"
         pokemon SPECIES_RAMPARDOS
         item ITEM_NONE
         move MOVE_EARTHQUAKE
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_AVALANCHE
         move MOVE_ROCK_POLISH
         ballseal 0
@@ -25232,7 +25232,7 @@ trainerdata 725, "Sabrina"
         pokemon SPECIES_ALAKAZAM
         item ITEM_NONE
         move MOVE_GRAVITY
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         move MOVE_ENERGY_BALL
         move MOVE_PSYCHIC
         ballseal 0
@@ -25270,7 +25270,7 @@ trainerdata 725, "Sabrina"
         move MOVE_BLIZZARD
         move MOVE_PERISH_SONG
         move MOVE_PSYCHIC
-        move MOVE_FOCUS_BLAST
+        move MOVE_FOCUS_MISS
         ballseal 0
 
         // mon 4
@@ -25294,7 +25294,7 @@ trainerdata 725, "Sabrina"
         move MOVE_CLOSE_COMBAT
         move MOVE_PSYCHO_CUT
         move MOVE_NIGHT_SLASH
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         ballseal 0
     endparty
 
@@ -25356,7 +25356,7 @@ trainerdata 726, "Blaine"
         move MOVE_CURSE
         move MOVE_GYRO_BALL
         move MOVE_OVERHEAT
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         ballseal 0
 
         // mon 4
@@ -25416,7 +25416,7 @@ trainerdata 727, "Blue"
         pokemon SPECIES_MACHAMP
         item ITEM_IRON_BALL
         move MOVE_DYNAMIC_PUNCH
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_FLING
         move MOVE_ATTRACT
         ballseal 0
@@ -25428,7 +25428,7 @@ trainerdata 727, "Blue"
         pokemon SPECIES_RHYPERIOR
         item ITEM_NONE
         move MOVE_MEGAHORN
-        move MOVE_STONE_EDGE
+        move MOVE_STONE_MISS
         move MOVE_THUNDER_FANG
         move MOVE_EARTHQUAKE
         ballseal 0

@@ -1626,7 +1626,7 @@ levelup SPECIES_GEODUDE
     learnset MOVE_EARTHQUAKE, 34
     learnset MOVE_EXPLOSION, 36
     learnset MOVE_DOUBLE_EDGE, 40
-    learnset MOVE_STONE_EDGE, 42
+    learnset MOVE_STONE_MISS, 42
     terminatelearnset
 
 
@@ -1648,7 +1648,7 @@ levelup SPECIES_GRAVELER
     learnset MOVE_EARTHQUAKE, 40
     learnset MOVE_EXPLOSION, 44
     learnset MOVE_DOUBLE_EDGE, 50
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -1671,7 +1671,7 @@ levelup SPECIES_GOLEM
     learnset MOVE_EARTHQUAKE, 40
     learnset MOVE_EXPLOSION, 44
     learnset MOVE_DOUBLE_EDGE, 50
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     learnset MOVE_HEAVY_SLAM, 60
     terminatelearnset
 
@@ -2119,7 +2119,7 @@ levelup SPECIES_ONIX
     learnset MOVE_DIG, 43
     learnset MOVE_IRON_TAIL, 44
     learnset MOVE_SANDSTORM, 45
-    learnset MOVE_STONE_EDGE, 49
+    learnset MOVE_STONE_MISS, 49
     learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
@@ -2528,7 +2528,7 @@ levelup SPECIES_RHYHORN
     learnset MOVE_DRILL_RUN, 34
     learnset MOVE_TAKE_DOWN, 38
     learnset MOVE_EARTHQUAKE, 45
-    learnset MOVE_STONE_EDGE, 45
+    learnset MOVE_STONE_MISS, 45
     learnset MOVE_MEGAHORN, 52
     learnset MOVE_HORN_DRILL, 56
     terminatelearnset
@@ -2556,7 +2556,7 @@ levelup SPECIES_RHYDON
     learnset MOVE_DRILL_RUN, 34
     learnset MOVE_TAKE_DOWN, 38
     learnset MOVE_EARTHQUAKE, 47
-    learnset MOVE_STONE_EDGE, 47
+    learnset MOVE_STONE_MISS, 47
     learnset MOVE_MEGAHORN, 58
     learnset MOVE_HORN_DRILL, 65
     terminatelearnset
@@ -3207,7 +3207,7 @@ levelup SPECIES_KABUTO
     learnset MOVE_METAL_SOUND, 48
     learnset MOVE_LIQUIDATION, 50
     learnset MOVE_WRING_OUT, 50
-    learnset MOVE_STONE_EDGE, 60
+    learnset MOVE_STONE_MISS, 60
     terminatelearnset
 
 
@@ -3235,7 +3235,7 @@ levelup SPECIES_KABUTOPS
     learnset MOVE_METAL_SOUND, 54
     learnset MOVE_LIQUIDATION, 56
     learnset MOVE_WRING_OUT, 63
-    learnset MOVE_STONE_EDGE, 70
+    learnset MOVE_STONE_MISS, 70
     learnset MOVE_NIGHT_SLASH, 72
     terminatelearnset
 
@@ -3260,7 +3260,7 @@ levelup SPECIES_AERODACTYL
     learnset MOVE_TAKE_DOWN, 40
     learnset MOVE_ROCK_SLIDE, 44
     learnset MOVE_IRON_HEAD, 45
-    learnset MOVE_STONE_EDGE, 45
+    learnset MOVE_STONE_MISS, 45
     learnset MOVE_SKY_DROP, 49
     learnset MOVE_HYPER_BEAM, 59
     learnset MOVE_GIGA_IMPACT, 69
@@ -4216,7 +4216,7 @@ levelup SPECIES_AZUMARILL
 levelup SPECIES_SUDOWOODO
     learnset MOVE_SLAM, 0
     learnset MOVE_SLAM, 1
-    learnset MOVE_STONE_EDGE, 1
+    learnset MOVE_STONE_MISS, 1
     learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_WOOD_HAMMER, 1
     learnset MOVE_FAKE_TEARS, 1
@@ -4236,7 +4236,7 @@ levelup SPECIES_SUDOWOODO
     learnset MOVE_SUCKER_PUNCH, 33
     learnset MOVE_COUNTER, 38
     learnset MOVE_DOUBLE_EDGE, 43
-    learnset MOVE_STONE_EDGE, 47
+    learnset MOVE_STONE_MISS, 47
     learnset MOVE_HEAD_SMASH, 50
     learnset MOVE_HAMMER_ARM, 50
     terminatelearnset
@@ -4743,7 +4743,7 @@ levelup SPECIES_STEELIX
     learnset MOVE_DIG, 43
     learnset MOVE_IRON_TAIL, 44
     learnset MOVE_SANDSTORM, 45
-    learnset MOVE_STONE_EDGE, 49
+    learnset MOVE_STONE_MISS, 49
     learnset MOVE_DOUBLE_EDGE, 52
     learnset MOVE_MAGNET_RISE, 60
     terminatelearnset
@@ -4873,7 +4873,7 @@ levelup SPECIES_SHUCKLE
     learnset MOVE_POWER_TRICK, 43
     learnset MOVE_SHELL_SMASH, 50
     learnset MOVE_STICKY_WEB, 51
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -5616,7 +5616,7 @@ levelup SPECIES_LARVITAR
     learnset MOVE_THRASH, 32
     learnset MOVE_CRUNCH, 33
     learnset MOVE_EARTHQUAKE, 38
-    learnset MOVE_STONE_EDGE, 40
+    learnset MOVE_STONE_MISS, 40
     learnset MOVE_HYPER_BEAM, 48
     terminatelearnset
 
@@ -5643,7 +5643,7 @@ levelup SPECIES_PUPITAR
     learnset MOVE_CRUNCH, 36
     learnset MOVE_PAYBACK, 41
     learnset MOVE_EARTHQUAKE, 42
-    learnset MOVE_STONE_EDGE, 47
+    learnset MOVE_STONE_MISS, 47
     learnset MOVE_HYPER_BEAM, 59
     terminatelearnset
 
@@ -5672,7 +5672,7 @@ levelup SPECIES_TYRANITAR
     learnset MOVE_CRUNCH, 36
     learnset MOVE_PAYBACK, 41
     learnset MOVE_EARTHQUAKE, 42
-    learnset MOVE_STONE_EDGE, 49
+    learnset MOVE_STONE_MISS, 49
     learnset MOVE_HYPER_BEAM, 61
     learnset MOVE_GIGA_IMPACT, 69
     terminatelearnset
@@ -6843,7 +6843,7 @@ levelup SPECIES_NOSEPASS
     learnset MOVE_DISCHARGE, 31
     learnset MOVE_SANDSTORM, 34
     learnset MOVE_EARTH_POWER, 37
-    learnset MOVE_STONE_EDGE, 40
+    learnset MOVE_STONE_MISS, 40
     learnset MOVE_LOCK_ON, 43
     learnset MOVE_ZAP_CANNON, 43
     terminatelearnset
@@ -7752,7 +7752,7 @@ levelup SPECIES_LUNATONE
     learnset MOVE_COSMIC_POWER, 25
     learnset MOVE_PSYCHIC, 29
     learnset MOVE_HEAL_BLOCK, 33
-    learnset MOVE_STONE_EDGE, 35
+    learnset MOVE_STONE_MISS, 35
     learnset MOVE_FUTURE_SIGHT, 40
     learnset MOVE_MAGIC_ROOM, 46
     learnset MOVE_EXPLOSION, 47
@@ -7776,7 +7776,7 @@ levelup SPECIES_SOLROCK
     learnset MOVE_COSMIC_POWER, 25
     learnset MOVE_PSYCHIC, 29
     learnset MOVE_HEAL_BLOCK, 33
-    learnset MOVE_STONE_EDGE, 35
+    learnset MOVE_STONE_MISS, 35
     learnset MOVE_SOLAR_BEAM, 40
     learnset MOVE_WONDER_ROOM, 46
     learnset MOVE_EXPLOSION, 47
@@ -8634,7 +8634,7 @@ levelup SPECIES_REGIROCK
     learnset MOVE_CURSE, 27
     learnset MOVE_IRON_DEFENSE, 36
     learnset MOVE_HAMMER_ARM, 45
-    learnset MOVE_STONE_EDGE, 45
+    learnset MOVE_STONE_MISS, 45
     learnset MOVE_SUPERPOWER, 57
     learnset MOVE_LOCK_ON, 57
     learnset MOVE_ZAP_CANNON, 60
@@ -10505,7 +10505,7 @@ levelup SPECIES_RHYPERIOR
     learnset MOVE_DRILL_RUN, 34
     learnset MOVE_TAKE_DOWN, 38
     learnset MOVE_EARTHQUAKE, 47
-    learnset MOVE_STONE_EDGE, 47
+    learnset MOVE_STONE_MISS, 47
     learnset MOVE_MEGAHORN, 58
     learnset MOVE_HORN_DRILL, 65
     learnset MOVE_ROCK_WRECKER, 72
@@ -10858,7 +10858,7 @@ levelup SPECIES_PROBOPASS
     learnset MOVE_DISCHARGE, 31
     learnset MOVE_SANDSTORM, 34
     learnset MOVE_EARTH_POWER, 37
-    learnset MOVE_STONE_EDGE, 40
+    learnset MOVE_STONE_MISS, 40
     learnset MOVE_LOCK_ON, 43
     learnset MOVE_ZAP_CANNON, 43
     terminatelearnset
@@ -11075,7 +11075,7 @@ levelup SPECIES_HEATRAN
     learnset MOVE_FIRE_SPIN, 57
     learnset MOVE_EARTH_POWER, 62
     learnset MOVE_HEAT_WAVE, 69
-    learnset MOVE_STONE_EDGE, 76
+    learnset MOVE_STONE_MISS, 76
     learnset MOVE_MAGMA_STORM, 83
     terminatelearnset
 
@@ -12283,7 +12283,7 @@ levelup SPECIES_ROGGENROLA
     learnset MOVE_ROCK_BLAST, 23
     learnset MOVE_ROCK_SLIDE, 27
     learnset MOVE_SANDSTORM, 34
-    learnset MOVE_STONE_EDGE, 38
+    learnset MOVE_STONE_MISS, 38
     learnset MOVE_EXPLOSION, 42
     terminatelearnset
 
@@ -12306,7 +12306,7 @@ levelup SPECIES_BOLDORE
     learnset MOVE_ROCK_SLIDE, 30
     learnset MOVE_STEALTH_ROCK, 36
     learnset MOVE_SANDSTORM, 42
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     learnset MOVE_EXPLOSION, 54
     terminatelearnset
 
@@ -12328,7 +12328,7 @@ levelup SPECIES_GIGALITH
     learnset MOVE_ROCK_SLIDE, 30
     learnset MOVE_STEALTH_ROCK, 36
     learnset MOVE_SANDSTORM, 42
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     learnset MOVE_EXPLOSION, 54
     terminatelearnset
 
@@ -12473,7 +12473,7 @@ levelup SPECIES_TIMBURR
     learnset MOVE_SCARY_FACE, 32
     learnset MOVE_DYNAMIC_PUNCH, 32
     learnset MOVE_HAMMER_ARM, 37
-    learnset MOVE_STONE_EDGE, 41
+    learnset MOVE_STONE_MISS, 41
     learnset MOVE_SUPERPOWER, 46
     learnset MOVE_FOCUS_PUNCH, 47
     terminatelearnset
@@ -12498,7 +12498,7 @@ levelup SPECIES_GURDURR
     learnset MOVE_SCARY_FACE, 35
     learnset MOVE_DYNAMIC_PUNCH, 36
     learnset MOVE_HAMMER_ARM, 43
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     learnset MOVE_SUPERPOWER, 55
     learnset MOVE_FOCUS_PUNCH, 56
     terminatelearnset
@@ -12523,7 +12523,7 @@ levelup SPECIES_CONKELDURR
     learnset MOVE_SCARY_FACE, 35
     learnset MOVE_DYNAMIC_PUNCH, 36
     learnset MOVE_HAMMER_ARM, 43
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     learnset MOVE_SUPERPOWER, 55
     learnset MOVE_FOCUS_PUNCH, 56
     terminatelearnset
@@ -15050,7 +15050,7 @@ levelup SPECIES_TERRAKION
     learnset MOVE_SACRED_SWORD, 40
     learnset MOVE_SWORDS_DANCE, 47
     learnset MOVE_WORK_UP, 49
-    learnset MOVE_STONE_EDGE, 59
+    learnset MOVE_STONE_MISS, 59
     learnset MOVE_CLOSE_COMBAT, 65
     terminatelearnset
 
@@ -15178,7 +15178,7 @@ levelup SPECIES_LANDORUS
     learnset MOVE_ROCK_SLIDE, 35
     learnset MOVE_EARTH_POWER, 40
     learnset MOVE_EXTRASENSORY, 45
-    learnset MOVE_STONE_EDGE, 50
+    learnset MOVE_STONE_MISS, 50
     learnset MOVE_HAMMER_ARM, 55
     learnset MOVE_SANDSTORM, 60
     learnset MOVE_EARTHQUAKE, 65
@@ -16138,7 +16138,7 @@ levelup SPECIES_BARBARACLE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_WITHDRAW, 1
     learnset MOVE_WATER_GUN, 1
-    learnset MOVE_STONE_EDGE, 1
+    learnset MOVE_STONE_MISS, 1
     learnset MOVE_SHELL_SMASH, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_WATER_GUN, 4
@@ -16155,7 +16155,7 @@ levelup SPECIES_BARBARACLE
     learnset MOVE_SHELL_SMASH, 42
     learnset MOVE_NIGHT_SLASH, 44
     learnset MOVE_CROSS_CHOP, 51
-    learnset MOVE_STONE_EDGE, 56
+    learnset MOVE_STONE_MISS, 56
     learnset MOVE_SKULL_BASH, 65
     terminatelearnset
 
@@ -16490,7 +16490,7 @@ levelup SPECIES_CARBINK
     learnset MOVE_LIGHT_SCREEN, 44
     learnset MOVE_POWER_GEM, 45
     learnset MOVE_MOONBLAST, 52
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     learnset MOVE_SAFEGUARD, 70
     terminatelearnset
 
@@ -16847,7 +16847,7 @@ levelup SPECIES_YVELTAL
     learnset MOVE_FOUL_PLAY, 55
     learnset MOVE_DRAGON_RUSH, 64
     learnset MOVE_HURRICANE, 70
-    learnset MOVE_FOCUS_BLAST, 73
+    learnset MOVE_FOCUS_MISS, 73
     learnset MOVE_SKY_ATTACK, 86
     learnset MOVE_HYPER_BEAM, 86
     terminatelearnset
@@ -16896,7 +16896,7 @@ levelup SPECIES_DIANCIE
     learnset MOVE_LIGHT_SCREEN, 50
     learnset MOVE_POWER_GEM, 52
     learnset MOVE_MOONBLAST, 64
-    learnset MOVE_STONE_EDGE, 67
+    learnset MOVE_STONE_MISS, 67
     learnset MOVE_SAFEGUARD, 70
     learnset MOVE_DIAMOND_STORM, 71
     terminatelearnset
@@ -17460,7 +17460,7 @@ levelup SPECIES_ROCKRUFF
     learnset MOVE_STEALTH_ROCK, 37
     learnset MOVE_SCARY_FACE, 38
     learnset MOVE_ROCK_CLIMB, 45
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     terminatelearnset
 
 
@@ -17488,7 +17488,7 @@ levelup SPECIES_LYCANROC
     learnset MOVE_SCARY_FACE, 42
     learnset MOVE_STEALTH_ROCK, 42
     learnset MOVE_ROCK_CLIMB, 45
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -20040,7 +20040,7 @@ levelup SPECIES_STONJOURNER
     learnset MOVE_BODY_SLAM, 42
     learnset MOVE_WIDE_GUARD, 48
     learnset MOVE_HEAVY_SLAM, 54
-    learnset MOVE_STONE_EDGE, 60
+    learnset MOVE_STONE_MISS, 60
     learnset MOVE_MEGA_KICK, 66
     terminatelearnset
 
@@ -21119,7 +21119,7 @@ levelup SPECIES_NACLI
     learnset MOVE_STEALTH_ROCK, 33
     learnset MOVE_HEAVY_SLAM, 35
     learnset MOVE_EARTHQUAKE, 40
-    learnset MOVE_STONE_EDGE, 45
+    learnset MOVE_STONE_MISS, 45
     terminatelearnset
 
 levelup SPECIES_NACLSTACK
@@ -21138,7 +21138,7 @@ levelup SPECIES_NACLSTACK
     learnset MOVE_STEALTH_ROCK, 38
     learnset MOVE_HEAVY_SLAM, 41
     learnset MOVE_EARTHQUAKE, 45
-    learnset MOVE_STONE_EDGE, 51
+    learnset MOVE_STONE_MISS, 51
     terminatelearnset
 
 levelup SPECIES_GARGANACL
@@ -21160,7 +21160,7 @@ levelup SPECIES_GARGANACL
     learnset MOVE_STEALTH_ROCK, 40
     learnset MOVE_HEAVY_SLAM, 44
     learnset MOVE_EARTHQUAKE, 49
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     learnset MOVE_EXPLOSION, 60
     terminatelearnset
 
@@ -22308,7 +22308,7 @@ levelup SPECIES_IRON_THORNS
     learnset MOVE_PIN_MISSILE, 63
     learnset MOVE_EARTHQUAKE, 70
     learnset MOVE_STEALTH_ROCK, 77
-    learnset MOVE_STONE_EDGE, 84
+    learnset MOVE_STONE_MISS, 84
     learnset MOVE_GIGA_IMPACT, 91
     terminatelearnset
 
@@ -22816,7 +22816,7 @@ levelup SPECIES_IRON_BOULDER
     learnset MOVE_SWORDS_DANCE, 63
     learnset MOVE_MEGAHORN, 70
     learnset MOVE_QUICK_GUARD, 77
-    learnset MOVE_STONE_EDGE, 84
+    learnset MOVE_STONE_MISS, 84
     learnset MOVE_GIGA_IMPACT, 91
     terminatelearnset
 
@@ -23201,7 +23201,7 @@ levelup SPECIES_MEGA_AERODACTYL
     learnset MOVE_TAKE_DOWN, 40
     learnset MOVE_ROCK_SLIDE, 44
     learnset MOVE_IRON_HEAD, 45
-    learnset MOVE_STONE_EDGE, 45
+    learnset MOVE_STONE_MISS, 45
     learnset MOVE_SKY_DROP, 49
     learnset MOVE_HYPER_BEAM, 59
     learnset MOVE_GIGA_IMPACT, 69
@@ -23321,7 +23321,7 @@ levelup SPECIES_MEGA_STEELIX
     learnset MOVE_DIG, 43
     learnset MOVE_IRON_TAIL, 44
     learnset MOVE_SANDSTORM, 45
-    learnset MOVE_STONE_EDGE, 49
+    learnset MOVE_STONE_MISS, 49
     learnset MOVE_DOUBLE_EDGE, 52
     learnset MOVE_MAGNET_RISE, 60
     terminatelearnset
@@ -23434,7 +23434,7 @@ levelup SPECIES_MEGA_TYRANITAR
     learnset MOVE_CRUNCH, 36
     learnset MOVE_PAYBACK, 41
     learnset MOVE_EARTHQUAKE, 42
-    learnset MOVE_STONE_EDGE, 49
+    learnset MOVE_STONE_MISS, 49
     learnset MOVE_HYPER_BEAM, 61
     learnset MOVE_GIGA_IMPACT, 69
     terminatelearnset
@@ -24213,7 +24213,7 @@ levelup SPECIES_MEGA_DIANCIE
     learnset MOVE_LIGHT_SCREEN, 50
     learnset MOVE_POWER_GEM, 52
     learnset MOVE_MOONBLAST, 64
-    learnset MOVE_STONE_EDGE, 67
+    learnset MOVE_STONE_MISS, 67
     learnset MOVE_SAFEGUARD, 70
     learnset MOVE_DIAMOND_STORM, 71
     terminatelearnset
@@ -24540,7 +24540,7 @@ levelup SPECIES_GEODUDE_ALOLAN
     learnset MOVE_DISCHARGE, 34
     learnset MOVE_EXPLOSION, 36
     learnset MOVE_DOUBLE_EDGE, 40
-    learnset MOVE_STONE_EDGE, 42
+    learnset MOVE_STONE_MISS, 42
     terminatelearnset
 
 
@@ -24562,7 +24562,7 @@ levelup SPECIES_GRAVELER_ALOLAN
     learnset MOVE_DISCHARGE, 40
     learnset MOVE_EXPLOSION, 44
     learnset MOVE_DOUBLE_EDGE, 50
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -24585,7 +24585,7 @@ levelup SPECIES_GOLEM_ALOLAN
     learnset MOVE_DISCHARGE, 40
     learnset MOVE_EXPLOSION, 44
     learnset MOVE_DOUBLE_EDGE, 50
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     learnset MOVE_HEAVY_SLAM, 60
     terminatelearnset
 
@@ -26228,7 +26228,7 @@ levelup SPECIES_LANDORUS_THERIAN
     learnset MOVE_ROCK_SLIDE, 35
     learnset MOVE_EARTH_POWER, 40
     learnset MOVE_EXTRASENSORY, 45
-    learnset MOVE_STONE_EDGE, 50
+    learnset MOVE_STONE_MISS, 50
     learnset MOVE_HAMMER_ARM, 55
     learnset MOVE_SANDSTORM, 60
     learnset MOVE_EARTHQUAKE, 65
@@ -27698,7 +27698,7 @@ levelup SPECIES_ROCKRUFF_OWN_TEMPO
     learnset MOVE_STEALTH_ROCK, 37
     learnset MOVE_SCARY_FACE, 38
     learnset MOVE_ROCK_CLIMB, 45
-    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_STONE_MISS, 48
     terminatelearnset
 
 
@@ -27725,7 +27725,7 @@ levelup SPECIES_LYCANROC_MIDNIGHT
     learnset MOVE_SCARY_FACE, 42
     learnset MOVE_STEALTH_ROCK, 42
     learnset MOVE_ROCK_CLIMB, 45
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -27759,7 +27759,7 @@ levelup SPECIES_LYCANROC_DUSK
     learnset MOVE_SCARY_FACE, 42
     learnset MOVE_STEALTH_ROCK, 42
     learnset MOVE_ROCK_CLIMB, 45
-    learnset MOVE_STONE_EDGE, 54
+    learnset MOVE_STONE_MISS, 54
     terminatelearnset
 
 
@@ -28984,7 +28984,7 @@ levelup SPECIES_AVALUGG_HISUIAN
     learnset MOVE_TAKE_DOWN, 36
     learnset MOVE_BLIZZARD, 41
     learnset MOVE_DOUBLE_EDGE, 46
-    learnset MOVE_STONE_EDGE, 51
+    learnset MOVE_STONE_MISS, 51
     learnset MOVE_MOUNTAIN_GALE, 61
     terminatelearnset
 
@@ -29123,7 +29123,7 @@ levelup SPECIES_AVALUGG_LORD
     learnset MOVE_TAKE_DOWN, 36
     learnset MOVE_BLIZZARD, 41
     learnset MOVE_DOUBLE_EDGE, 46
-    learnset MOVE_STONE_EDGE, 51
+    learnset MOVE_STONE_MISS, 51
     learnset MOVE_MOUNTAIN_GALE, 61
     terminatelearnset
 

@@ -13,7 +13,7 @@
 a010_717:
     loadparticlefromspa 0, 469 //charge beam beams
     waitparticle
-    loadparticlefromspa 1, 429 //focus blast charging, emitter 1
+    loadparticlefromspa 1, 429 //focus miss charging, emitter 1
     waitparticle
 
     
@@ -23,7 +23,7 @@ a010_717:
     changebg 42, 0x20001 //moon bg  
     waitforchangebg
 
-    playsepan 1530, -117 //focus blast charge sound
+    playsepan 1530, -117 //focus miss charge sound
     addparticle 1, 1, 3 //charges attack in moonlight
     waitparticle
 
